@@ -6,7 +6,7 @@
       <span></span>
     </div>
     <q-card class="my-card">
-      <q-img src="../assets/img/stallKerCall.jpg">
+      <q-img class="img-1">
         <div class="absolute-bottom text-h6">
           S.T.A.L.K.E.R.: CALL OF Pripyat
         </div>
@@ -30,7 +30,7 @@
     </q-card>
 
     <q-card class="my-card">
-      <q-img src="../assets/img/stalkerClear.jpg">
+      <q-img class="img-2">
         <div class="absolute-bottom text-h6">S.T.A.L.K.E.R.: Clear Sky</div>
       </q-img>
 
@@ -52,7 +52,7 @@
     </q-card>
 
     <q-card class="my-card">
-      <q-img src="../assets/img/stalkerShadow.jpg">
+      <q-img class="img-3">
         <div class="absolute-bottom text-h6">S.T.A.L.K.E.R.: Clear Sky</div>
       </q-img>
 
@@ -163,5 +163,17 @@ export default defineComponent({
 }
 .mt {
   margin-top: 20px;
+}
+.img-1 {
+  background-image: url('../assets/img/stallKerCall.jpg');
+  background-size: cover;
+}
+.img-2 {
+  background-image: url('../assets/img/stalkerClear.jpg');
+  background-size: cover;
+}
+.img-3 {
+  background-image: url('../assets/img/stalkerShadow.jpg');
+  background-size: cover;
 }
 </style>
