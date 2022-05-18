@@ -53,7 +53,9 @@
 
     <q-card class="my-card">
       <q-img class="img-3">
-        <div class="absolute-bottom text-h6">S.T.A.L.K.E.R.: Clear Sky</div>
+        <div class="absolute-bottom text-h6">
+          S.T.A.L.K.E.R.: Shadow of Chernobyl
+        </div>
       </q-img>
 
       <q-card-section>
